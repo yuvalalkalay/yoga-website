@@ -1,0 +1,14 @@
+.Private-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+
+.Private-main p {
+  width: 28rem;
+  font-size: large;
+}

@@ -1,0 +1,52 @@
+.classes-main {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.classes-price {
+  width: 70%;
+  padding-bottom: 6rem;
+  border-style: none none solid none;
+  border-color: #bebebe;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.classes-main h1 {
+  text-align: center;
+}
+
+.classes-main p {
+  text-align: center;
+  font-size: large;
+  color: rgb(69, 69, 69);
+}
+
+.classes-black-header {
+  background-color: rgb(47, 47, 47);
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.classes-table {
+  padding-top: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.classes-header-table {
+  padding-top: 4rem;
+}
+
+.classes-button {
+  padding-top: 1.5rem;
+}

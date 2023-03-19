@@ -60,3 +60,8 @@
   position: relative;
   bottom: 3vh;
 }
+
+.divider {
+  padding: 50px;
+  background-image: linear-gradient(to bottom right, #fafafa 50%, white 50%);
+}

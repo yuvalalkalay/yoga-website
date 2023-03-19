@@ -1,3 +1,43 @@
 .OneClass-main {
   background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.OneClass-content {
+  display: flex;
+  flex: 1 1 1;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: center;
+  align-items: center;
+  padding-top: 6rem;
+  width: 40rem;
+  line-height: 2.5rem;
+}
+
+.OneClass-content h1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 100;
+}
+
+.OneClass-content p {
+  font-size: x-large;
+  color: rgb(115, 115, 115);
+  padding-right: 0px;
+}
+
+.OneClass-right-svg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25rem;
+}
+
+.OneClass-left-svg {
+  padding-right: 93px;
 }

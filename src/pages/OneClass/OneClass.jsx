@@ -9,11 +9,19 @@ import Button from "../../components/Button/Button";
 const OneClass = () => {
   return (
     <div className="OneClass-main">
-      <img src={unwind} alt="oops" />
-      <img src={pause} alt="oops" />
-      <img src={energise} alt="oops" />
-      <img src={pause} alt="oops" />
-      <Button text="Meet your instructor" />
+      <img src={pause} alt="oops" className="OneClass-left-svg" />
+      <div className="OneClass-content">
+        <h1>One class, all the benefits</h1>
+        <p>
+          Great things happen when you pause and stretch. Re-focus on you, build
+          stamina and strength from within.
+        </p>
+        <Button text="Meet your instructor" design="2" />
+      </div>
+      <div className="OneClass-right-svg">
+        <img src={energise} alt="oops" />
+        <img src={unwind} alt="oops" />
+      </div>
     </div>
   );
 };

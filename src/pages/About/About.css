@@ -1,0 +1,39 @@
+.about-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.about-left-img {
+  width: 259px;
+  height: 238px;
+  float: inline-end;
+}
+
+.about-right-img {
+  width: 252px;
+  width: 208px;
+  position: relative;
+  top: 38rem;
+}
+
+.about-center-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.about-center-container p {
+  text-align: center;
+  font-size: x-large;
+  color: dimgray;
+}
+
+.about-viki-img {
+  height: 125px;
+  width: 125px;
+}
