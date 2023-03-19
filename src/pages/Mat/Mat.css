@@ -1,0 +1,22 @@
+.Mat-main {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+}
+
+.Mat-main p {
+  font-family: "HKGrotesk-Light", sans-serif;
+  width: 45rem;
+  font-size: xx-large;
+  font-weight: 100;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}

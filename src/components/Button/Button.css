@@ -1,0 +1,17 @@
+.button {
+  border-color: #2b2c32;
+  background-color: #2b2c32;
+  border-style: solid;
+  border-width: 1px;
+  color: aliceblue;
+  font-size: 1rem;
+  padding: 15px 32px;
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+  transition: 300ms;
+}
+
+.button:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
+  background-color: #212227;
+  border-color: #212227;
+}

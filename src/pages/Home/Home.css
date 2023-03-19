@@ -1,0 +1,62 @@
+.main {
+  background-image: url("../../imgs/hero-lg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 370px;
+  padding-left: 5rem;
+  padding-top: 10rem;
+}
+
+.content p {
+  border-style: none none solid none;
+}
+
+.content h2 {
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.namaste {
+  padding-top: 8rem;
+  padding-right: 10rem;
+  height: 150px;
+  width: 271px;
+  background-image: url("../../imgs/namaste-med.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 271px;
+  resize: both;
+}
+
+.line {
+  width: 8rem;
+  border-style: none none solid;
+  border-width: 5px;
+  border-color: #aec1b9;
+  margin-bottom: 3rem;
+}
+
+.ArrowDown-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ArrowDown {
+  position: relative;
+  bottom: 5vh;
+  transition: 300ms;
+}
+
+.ArrowDown:hover {
+  position: relative;
+  bottom: 3vh;
+}

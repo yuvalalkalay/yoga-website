@@ -1,0 +1,28 @@
+.navContainer {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navContainer-ul-left {
+  display: flex;
+  list-style: none;
+  font-size: x-large;
+}
+
+.navContainer-ul-right {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: x-large;
+}
+
+.navContainer-ul-right li {
+  transition: 300ms;
+}
+
+.navContainer-ul-right li:hover {
+  color: rgb(171, 171, 171);
+}
