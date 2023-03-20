@@ -14,7 +14,9 @@ import Private from "../Private/Private";
 const Home = () => {
   return (
     <div>
-      <NavBar />
+      <div className="nav-contaner">
+        <NavBar className="nav-contaner" />
+      </div>
       <div className="main">
         <div className="content">
           <h2>Experience the best workout humanly possible</h2>

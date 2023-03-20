@@ -8,7 +8,7 @@ import Button from "../../components/Button/Button";
 
 const OneClass = () => {
   return (
-    <div className="OneClass-main">
+    <div className="OneClass-main" id="one-class">
       <img src={pause} alt="oops" className="OneClass-left-svg" />
       <div className="OneClass-content">
         <h1>One class, all the benefits</h1>
@@ -16,7 +16,9 @@ const OneClass = () => {
           Great things happen when you pause and stretch. Re-focus on you, build
           stamina and strength from within.
         </p>
-        <Button text="Meet your instructor" design="2" />
+        <a href="#About">
+          <Button text="Meet your instructor" design="2" />
+        </a>
       </div>
       <div className="OneClass-right-svg">
         <img src={energise} alt="oops" />
