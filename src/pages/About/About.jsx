@@ -8,7 +8,7 @@ import recharge from "../../imgs/recharge.svg";
 
 const About = () => {
   return (
-    <div className="about-main">
+    <div className="about-main" id="About">
       <div className="about-left-conteainer">
         <img src={relax} className="about-left-img" alt="oops" />
       </div>

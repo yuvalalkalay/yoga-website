@@ -5,7 +5,7 @@ import strength from "../../imgs/strength.svg";
 
 const Private = () => {
   return (
-    <div className="Private-main">
+    <div className="Private-main" id="Private">
       <h1>Private classes</h1>
       <p>
         A personal practice that’s right for you. One-on-one tuition or

@@ -4,7 +4,7 @@ import Button from "../../components/Button/Button";
 
 const Classes = () => {
   return (
-    <div className="classes-main">
+    <div className="classes-main" id="Classes">
       <div className="classes-price">
         <h1>Classes for 2019</h1>
         <p>£48 for a block of 6 consecutive classes (£8.00 per class)</p>

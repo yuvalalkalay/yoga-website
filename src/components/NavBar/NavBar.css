@@ -19,10 +19,12 @@
   font-size: x-large;
 }
 
-.navContainer-ul-right li {
+.nav-a {
+  text-decoration: none;
+  color: black;
   transition: 300ms;
 }
 
-.navContainer-ul-right li:hover {
+.nav-a:hover {
   color: rgb(171, 171, 171);
 }

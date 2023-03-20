@@ -8,9 +8,21 @@ const NavBar = () => {
         <li>mat rebel logo</li>
       </ul>
       <ul className="navContainer-ul-right">
-        <li>About our classes</li>
-        <li>classesTimetable</li>
-        <li>Private classes</li>
+        <li>
+          <a className="nav-a" href="#About">
+            About our classes
+          </a>
+        </li>
+        <li>
+          <a className="nav-a" href="#Classes">
+            classesTimetable
+          </a>
+        </li>
+        <li>
+          <a className="nav-a" href="#Private">
+            Private classes
+          </a>
+        </li>
       </ul>
     </nav>
   );
