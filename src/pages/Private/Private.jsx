@@ -11,7 +11,7 @@ const Private = () => {
         A personal practice that’s right for you. One-on-one tuition or
         instruction for smaller groups and corporate teams.
       </p>
-      <Button text="Get in touch" design="2" />
+      <Button text="Get in touch" design="2" url="" />
       <img src={strength} alt="oops" />
     </div>
   );

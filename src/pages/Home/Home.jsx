@@ -21,12 +21,12 @@ const Home = () => {
         <div className="content">
           <h2>Experience the best workout humanly possible</h2>
           <div className="line"></div>
-          <Button text={"Book your class"} design="1" />
+          <Button text={"Book your class"} design="1" url="" />
         </div>
         <div className="namaste"></div>
       </div>
       <div className="ArrowDown-container">
-        <ArrowDown className="ArrowDown" />
+        <ArrowDown className="ArrowDown" url="#mat" />
       </div>
       <Mat />
       <OneClass />

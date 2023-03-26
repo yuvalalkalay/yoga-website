@@ -23,9 +23,7 @@ const About = () => {
           With Mat rebel, I hope to share my love of yoga practice and teaching
           to help you sculpt your perfect phyisque and build a healthy mind.
         </p>
-        <a href="#Classes">
-          <Button text="View class times" design="2" />
-        </a>
+        <Button text="View class times" design="2" url="#Classes" />
       </div>
       <div className="about-right-conteainer">
         <img className="about-right-img" src={recharge} alt="oops" />

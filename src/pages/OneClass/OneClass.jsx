@@ -16,9 +16,7 @@ const OneClass = () => {
           Great things happen when you pause and stretch. Re-focus on you, build
           stamina and strength from within.
         </p>
-        <a href="#About">
-          <Button text="Meet your instructor" design="2" />
-        </a>
+        <Button text="Meet your instructor" design="2" url="#About" />
       </div>
       <div className="OneClass-right-svg">
         <img src={energise} alt="oops" />

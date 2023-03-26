@@ -24,7 +24,7 @@ const Classes = () => {
           <p>Wantage Methodist Church Hall</p>
         </div>
         <div className="classes-button">
-          <Button text="Reserve your space +" design="3" />
+          <Button text="Reserve your space +" design="3" url="" />
         </div>
         <div>
           <h1>8:15 - 9:15pm</h1>
@@ -34,7 +34,7 @@ const Classes = () => {
           <p>Wantage Methodist Church Hall</p>
         </div>
         <div className="classes-button">
-          <Button text="Reserve your space +" design="3" />
+          <Button text="Reserve your space +" design="3" url="" />
         </div>
       </div>
     </div>

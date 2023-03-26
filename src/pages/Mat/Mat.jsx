@@ -12,9 +12,7 @@ const Mat = () => {
         focused exercise, complimented with deep breathing and calming of the
         mind.
       </p>
-      <a href="#one-class">
-        <Button text="Explore the class" design="1" />
-      </a>
+      <Button text="Explore the class" design="1" url="#one-class" />
     </div>
   );
 };

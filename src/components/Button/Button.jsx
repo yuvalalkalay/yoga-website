@@ -3,7 +3,8 @@ import "./Button.css";
 
 const Button = (props) => {
   return (
-    <button
+    <a
+      href={props.url}
       className={`${
         (props.design === "1" && "button1") ||
         (props.design === "2" && "button2") ||
@@ -11,7 +12,7 @@ const Button = (props) => {
       }`}
     >
       {props.text}
-    </button>
+    </a>
   );
 };
 
