@@ -37,3 +37,25 @@
   height: 125px;
   width: 125px;
 }
+
+@media all and (max-width: 1024px) {
+  .about-left-img {
+    display: none;
+  }
+  .about-right-img {
+    display: none;
+  }
+  .about-main {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .about-center-container h1 {
+    text-align: center;
+    font-size: x-large;
+  }
+  .about-center-container {
+    /* padding-top: 0px; */
+    gap: 2rem;
+  }
+}

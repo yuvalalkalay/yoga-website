@@ -71,3 +71,18 @@
   top: 0px;
   z-index: 1;
 }
+
+@media all and (max-width: 1024px) {
+  .home-h2 {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .home-button-container {
+    display: none;
+  }
+  .namaste {
+    background-size: 100%;
+  }
+}

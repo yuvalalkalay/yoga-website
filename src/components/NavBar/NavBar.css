@@ -1,5 +1,5 @@
 .navContainer {
-  padding-left: 10rem;
+  padding-left: 2rem;
   padding-right: 10rem;
   display: flex;
   flex-direction: row;
@@ -29,4 +29,15 @@
 
 .nav-a:hover {
   color: rgb(171, 171, 171);
+}
+
+@media all and (max-width: 1024px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .navContainer-ul-right {
+    display: none;
+  }
 }

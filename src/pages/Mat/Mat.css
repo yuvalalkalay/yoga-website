@@ -20,3 +20,12 @@
   height: 50px;
   width: 50px;
 }
+
+@media all and (max-width: 1024px) {
+  .Mat-main p {
+    font-size: x-large;
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

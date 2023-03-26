@@ -50,3 +50,12 @@
 .classes-button {
   padding-top: 1.5rem;
 }
+
+@media all and (max-width: 1024px) {
+  .classes-table {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    gap: 3rem;
+  }
+}

@@ -19,8 +19,12 @@ const OneClass = () => {
         <Button text="Meet your instructor" design="2" url="#About" />
       </div>
       <div className="OneClass-right-svg">
-        <img src={energise} alt="oops" />
-        <img src={unwind} alt="oops" />
+        <img
+          src={energise}
+          alt="oops"
+          className="OneClass-right-svg-energise"
+        />
+        <img src={unwind} alt="oops" className="OneClass-right-svg-unwind" />
       </div>
     </div>
   );

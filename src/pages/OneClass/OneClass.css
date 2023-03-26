@@ -41,3 +41,38 @@
 .OneClass-left-svg {
   padding-right: 93px;
 }
+
+@media all and (max-width: 1024px) {
+  .OneClass-main {
+    flex-direction: column;
+  }
+  .OneClass-left-svg {
+    width: 30%;
+  }
+  .OneClass-content {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: fit-content;
+    gap: 2rem;
+  }
+  .OneClass-content p {
+    font-size: medium;
+    line-height: 1.5rem;
+    margin: auto;
+  }
+  .OneClass-content h1 {
+    font-size: large;
+  }
+  .OneClass-right-svg {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5rem;
+  }
+  .OneClass-right-svg-energise {
+    width: 30%;
+  }
+  .OneClass-right-svg-unwind {
+    width: 30%;
+  }
+}

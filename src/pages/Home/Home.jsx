@@ -19,9 +19,13 @@ const Home = () => {
       </div>
       <div className="main">
         <div className="content">
-          <h2>Experience the best workout humanly possible</h2>
+          <h2 className="home-h2">
+            Experience the best workout humanly possible
+          </h2>
           <div className="line"></div>
-          <Button text={"Book your class"} design="1" url="" />
+          <div className="home-button-container">
+            <Button text={"Book your class"} design="1" url="" />
+          </div>
         </div>
         <div className="namaste"></div>
       </div>
