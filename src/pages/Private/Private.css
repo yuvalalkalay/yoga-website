@@ -12,3 +12,12 @@
   width: 28rem;
   font-size: large;
 }
+
+@media all and (max-width: 1024px) {
+  .Private-main p {
+    width: fit-content;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: x-large;
+  }
+}
